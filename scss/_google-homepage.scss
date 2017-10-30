@@ -2,31 +2,35 @@
 
 /* global styles */
 
+#logo{
+  position: absolute;
+  z-index:50;
+}
+
 #google{
-position: absolute;
-z-index: 50;
+position:relative;
 background-color:aqua;
- 
-}
 
-#stage{
-  position: relative;
-  z-index:1;
- 
-}
-
-#flowercluster{
-  position:absolute;
-  z-index:-1;
 
   
 }
 
-#background{
-    position: relative;
+#stage{
+  position: absolute;
+  
     
-    
+ 
 }
+
+#flowercluster{
+  position:relative;
+ 
+
+}
+
+
+
+
 
 
 
