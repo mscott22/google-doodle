@@ -2,7 +2,7 @@
 
 /* global styles */
 #logo{
-  position: absolute;
+  position: relative;
   z-index:50;
 }
 
@@ -15,8 +15,8 @@ position: absolute;
   
 }
 
-#stage{
-  position: relative;
+#stage {
+  position: absolute;
   z-index:1;
  
 }
@@ -24,6 +24,8 @@ position: absolute;
 #flowercluster{
   position:relative;
   z-index:2;
+margin-left: 100px;
+
 
   
 }
