@@ -1,32 +1,3 @@
-/* Stage */
-
-/* global styles */
-#logo{
-  position: absolute;
-  z-index:50;
-}
-
-#google{
-  margin-top:83px;
-  margin-left: 40px;
-  
-}
-
-#stage{
-  position: absolute;
-  z-index:1;
- 
-}
-
-#flowercluster{
-  position:relative;
-  z-index:2;
-  
-}
-
-
-
-
 
 /* DO NOT EDIT BELOW THIS LINE */
 
