@@ -7,13 +7,16 @@
 }
 
 #google{
-  margin-top:83px;
-  margin-left: 40px;
+margin-left:: 45px; 
+margin-top:30px;
+text-align: center;
+position: absolute;
+
   
 }
 
 #stage{
-  position: absolute;
+  position: relative;
   z-index:1;
  
 }
@@ -21,6 +24,7 @@
 #flowercluster{
   position:relative;
   z-index:2;
+
   
 }
 
