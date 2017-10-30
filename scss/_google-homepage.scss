@@ -2,31 +2,39 @@
 
 /* global styles */
 
-#logo{
-  position: absolute;
-  z-index:50;
-}
-
 #google{
-position:relative;
-background-color:aqua;
-
-
-  
+display: inline-block;
+z-index: 1;
+position:absolute;
+width:400px;
+height: 400px;
+margin-left: 170px;
+ 
 }
 
 #stage{
-  position: absolute;
-  
-    
+  position:relative;
+display: block;
+ 
  
 }
 
 #flowercluster{
-  position:relative;
  
-
+ 
 }
+
+h1{
+    font-family: Avenir;
+    font-size:.75em;
+    color: pink;
+    text-align: center;
+    margin-top: -50px;
+}
+
+//Animation Styling//
+
+
 
 
 
