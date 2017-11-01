@@ -46,7 +46,7 @@ h1{
   }
 }
 
-var $svg =$('#google').drawsvg({
+var $svg=$('#google').drawsvg({
   reverse:true,
   duration:4000,
 });
