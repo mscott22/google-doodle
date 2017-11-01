@@ -3,10 +3,10 @@
 /* global styles */
 
 #google{
-z-index: 1;
+z-index:1;
 position:absolute;
-width:400px;
-height:400px;
+width:60%;
+height: 400px;
 margin-left: 170px; 
  
 }
@@ -14,11 +14,6 @@ margin-left: 170px;
 #stage{
   position:relative;
   display: block;
- 
- 
-}
-
-#flowercluster{
  
  
 }
@@ -33,6 +28,23 @@ h1{
 
 //Animation Styling//
 
+
+#flowercluster{
+  position:relative;
+  z-index: -1;
+  animation: slide 3s ease-in;
+}
+@keyframes slide {
+  0%{
+    transform: translateY(-130px);
+  }
+  50% {
+    transform: translateY(-11px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 
 
 
