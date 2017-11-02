@@ -1,16 +1,9 @@
-// Cache/ Store it
-
-var $svg =$('#google').drawsvg({
-  reverse:true,
-  duration:4000,
+var $svg = $('#google').drawsvg({
+  reverse: true,
+  duration: 4000,
 });
 
-// Run it
-
 $svg.drawsvg('animate');
-
-
-
 
 
 // Store 3 images
@@ -25,4 +18,3 @@ console.log(numRand);
 
 // Display randomized images
 $('#random').attr( 'src', eval('img' + numRand) );
-
